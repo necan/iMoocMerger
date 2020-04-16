@@ -6,7 +6,7 @@
 
 1. 在安卓机或 MuMu 模拟器上安装慕课网 app 并下载你购买的视频。
 
-2. 视频位于 SD 卡下的 `Android/data/cn.com.open.mooc/video` 中，其中 `sz_` 开头的文件夹存放的就是实战（收费）视频，`mf_` 开头的文件夹存放的就是免费视频。
+2. 视频位于 SD 卡下的 `Android/data/cn.com.open.mooc/video` 中，其中 `sz_` 开头的文件夹存放的是实战课程，`mf_` 开头的是免费课程，`lj_` 开头的是金职位课程。
 
    ![image-20200223170937107](assets/image-20200223170937107.png)
 
@@ -14,11 +14,9 @@
 
    ![image-20200306181705365](assets/image-20200306181705365.png)
 
-4. 将所有的 `sz_*` 和 `mf_*` 文件夹复制到电脑上，下载我提供的合并工具 `merger.exe`，将 `merger.exe` 放在 `sz_*` 或 `mf_*` 文件夹同一级目录下。
+4. 在电脑上创建 `src` 文件夹，将你要合并的 `sz_*` 、`mf_*` 或 `lj_` 文件夹复制到 `src` 中，下载我提供的合并工具 `merger.exe`，将 `merger.exe` 放在 `src` 同级目录下。
 
-   ![image-20200224014503972](assets/image-20200224014503972.png)
+   <img src="assets/image-20200416162205777.png" alt="image-20200416162205777" style="zoom: 67%;" />
 
-5. 双击 `merge.exe`，等待合并完成。
-
-   ![image-20200224014439021](assets/image-20200224014439021.png)
+5. 双击 `merge.exe`，等待合并完成，合并完的视频在 `merged` 文件夹下。
 
