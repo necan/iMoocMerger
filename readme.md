@@ -1,5 +1,11 @@
 ## 慕课网离线视频合并工具
 
+### 注意
+
+本项目目的是自用，如出错，请自行解决，想知道是怎么解密的，请移步 [imooc-decrypter](https://github.com/necan/imooc-decrypter)。
+
+### 使用
+
 工具下载：[merger](https://github.com/necan/iMoocMerger/releases)
 
 使用前提：电脑必须联网，用于获取课程信息来创建目录结构。
